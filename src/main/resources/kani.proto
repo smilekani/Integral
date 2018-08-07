@@ -1,0 +1,24 @@
+option java_package = "in.co.kani.protobuf.generated";
+option java_outer_classname="KaniTest";
+
+message PROTOKANI {            
+required string enabled = 1;               
+repeated string wpa = 2;          
+repeated string authentication = 3;                                      
+repeated string ciphers = 4;
+required string phy = 5;
+required string ssid = 6;
+required string bssid = 7;
+required string country = 8;
+required string mode = 9;
+required string channel = 10;
+required string frequency = 11;
+required string frequency_offset = 12;
+required string txpower = 13;
+required string txpower_offset = 14;
+required string quality = 15;
+required string quality_max = 16;
+required string noise = 17;
+required string signal = 18;
+required string bitrate = 19;                                  
+} 
